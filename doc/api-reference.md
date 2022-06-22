@@ -123,7 +123,7 @@ A Semantics is a family of operations and/or attributes for a given grammar. A g
 Operations and attributes are accessed by applying a semantics instance to a [MatchResult](#matchresult-objects).
 This returns a parse node, whose properties correspond to the operations and attributes of the semantics. For example, to invoke an operation named 'prettyPrint': `mySemantics(matchResult).prettyPrint()`. Attributes are accessed using property syntax — e.g., for an attribute named 'value': `mySemantics(matchResult).value`.
 
-A Semantics instance `s` has the following methods, which all return `this` so they can be chained:
+A Semantics instance `mySemantics` has the following methods, which all return `this` so they can be chained:
 
 <b><pre class="api">mySemantics.addOperation(nameOrSignature: string, actionDict: object) &rarr; Semantics</pre></b>
 
